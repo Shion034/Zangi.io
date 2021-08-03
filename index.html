@@ -15,47 +15,42 @@
     </head>
     <body>
         <header>
-            <img class="logo" src="#" alt="logo">
-            <h1 class="sitename">UN SUBJEFE</h1>
+            
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="index.html" alt="logo">
+                    <h1 class="sitename">UN SUBJEFE</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="navi-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">The World</a>
+                            <a class="navi-link" href="#">The World</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="characters/character.html">Characters</a>
+                            <a class="navi-link" href="characters/character.html">Characters</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallary</a>
+                            <a class="navi-link" href="#">Gallary</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About me</a>
+                            <a class="navi-link" href="#">About me</a>
                         </li>
-                        <!--
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>-->
                     </ul>
                 </div>
             </nav>
             <div class="hero-space">
                 <img class="hero-img img" src="images/seasidetown.jpg">
                 <div class="message">
-                    <h3 class="welcome"><i>Welcome to Astraford</i></h3>
-                    <p>アストラフォードへようこそ！<br>
+                    <h3 class="welcome display-4"><i>Welcome to Astraford</i></h3>
+                    <p class="lead">アストラフォードへようこそ！<br>
                        このサイトでは、アストラフォードの歴史的背景や<br>
                        観光名所を紹介させていただきます。 
                     </p>
@@ -63,9 +58,10 @@
             </div>    
         </header>
         <main>
+            <div class="space1">
             <div class="history">
                 <h4 class="title">マフィアが確立した国-Astraford-</h4>
-                <p>今から訳180年前、首都ヘランサを中心とするコゼンクトロ地方で勢力を持っていた<strong>アトソン・ヴォルガー氏</strong>と、第2都市チェッカで勢力を
+                <p class="histrical-background">今から訳180年前、首都ヘランサを中心とするコゼンクトロ地方で勢力を持っていた<strong>アトソン・ヴォルガー氏</strong>と、第2都市チェッカで勢力を
                     持っていた<strong>フアン・パルモッツォ氏</strong>が北勢力との対等さを示すため、孤児や移民への支援を政府へ呼びかけ、地域の安定を図った。
                     また、治安維持のためアトソン・ヴォルガー氏は自身の資産を軍費にあて、<strong>アル・パニーニ・ロスト</strong>を頭とする隊を築く。<br>
                     この、アル・パニーニ・ロストが後のロストファミリー初代ドンとなる。
@@ -74,7 +70,7 @@
                     そして18▲▼年6月、北地域からの独立に成功し、アストラフォードは建国された。アストラフォード建国に携わったアトソン・ヴォルガー氏、フアン・パルモッツォ氏、
                     アル・パニーニ・ロスト氏は今日存在する<strong>ヴォルガング・ファミリー</strong>、<strong>ロスト・ファミリー</strong>、
                     <strong>パルモッソ・ファミリー</strong>を組織させた歴史的重要人物たちだ。
-                    <a class="page-link" href="#">アストラフォードの歴史とマフィアたちについて学ぶ➤</a>
+                    <a class="history-link" href="#">アストラフォードの歴史とマフィアたちについて学ぶ➤</a>
                 </p>
             </div>
             <div class="siteseeing">
@@ -107,6 +103,7 @@
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
+                </div>
                 </div>
                 <div class="news">
                     <h4 class="title">News</h4>

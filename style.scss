@@ -1,0 +1,108 @@
+$white:#F3F9E3;
+$lightb:#2F80B2;
+$b:#24638A;
+$y:#FFEA75;
+$g:#248A7E;
+
+/*---------font------------------*/
+    .sitename{
+        display: inline;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+@media screen and (min-width:900px){
+    .message{
+        top:10%;
+        left: 60%;
+        width: 40%;
+        animation: lighttoleft 3s;
+    }
+    @keyframes lighttoleft{
+        from {
+         left: 100%;
+        
+    }
+    to {
+         left: 60%;
+        
+    }
+    }
+    .hero-img{
+        width: 100%;
+    }
+
+}
+body{
+background-color: $white;
+header, footer{
+    background-color: $b;
+}
+
+nav{
+    background-color:$b;
+
+    .navi-link{
+        color: $white;
+        margin: 5px;
+    }
+    .navbar-nav{
+        margin: 10px 0 0 0 ;
+    }
+}
+header{
+    .hero-space{
+        width: 100%;
+        position: relative;
+    }
+    .message{
+        background-color: rgba($color:$white, $alpha: 0.7);
+        position: absolute;
+        padding:20px;
+        box-shadow: 0 0 20px $white;
+        border-radius: 4px 0 0 4px;
+    }
+    .hero-img{
+        width: 100%;
+    }
+
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2%;
+
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-gap: 2%;
+    
+    .title{
+        font-size: 2.5rem;
+        color: $g;
+    }
+    .histrical-background{
+        background-color: rgba($color: $lightb, $alpha: 0.4);
+        padding: 2.5%;
+    }
+    .history-link{
+        display: block;
+        color: $lightb;
+        text-align: end;
+        padding: 1.5%;
+    }
+
+    .city-card{
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 3%  2% 3%;
+    }
+
+    .news{
+        width: 350px;
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+}
+
+}
