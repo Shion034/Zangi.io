@@ -1,0 +1,97 @@
+/*----------------------header----------------------*/
+header, footer{
+    width: 100%;
+    background-color: #473A3C;
+}
+.headerlogo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.titlelogo{
+    width: 60px;
+    padding-right: 15px;
+    
+}
+h1{
+    font-size: 2em;
+    color: #AC4B4B;
+    text-shadow: 3px 3px 2px white;
+    font-family: 'Rock Salt', cursive;
+}
+/*--------------------nav-----------------------------*/
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+/*----------------------------------------------------*/
+body{
+    background-color: #D3CABA;
+    margin: auto 0;
+}
+h2{
+    color: #473A3C;
+    border-bottom: 5px double #473A3C;
+    font-size: 1.8rem;
+}
+h3{
+    color: #AC4B4B;
+    font-size: 1.8rem;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+/*------------------キャラクター------------------------*/
+.charaimg{
+    width: 100%;
+}
+.caradiv{
+    background-color: #DEDCD5;
+    max-width: 350px;
+}
+.name{
+    max-width: 350px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    font-size: 1rem;
+    font-family: 'Tinos', serif;
+}
+.lostfamilia, .heinzfamilia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+
+
+
+
+/*------------------footer------------------------*/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:  #AC4B4B;
+}
+.social{
+    text-align: right;
+    padding: 2%;
+}
