@@ -26,39 +26,14 @@ nav{
     .navi-link{
         color: $white;
         margin: 5px;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .nav-item{
         text-align: center;
     }
-    
-    .navisheet{
-        background-color: rgba($color: #24638A, $alpha: 0.7);
-        position: absolute;
-        width: 70%;
-        z-index: 10;
-        top: 75px;
-        left: 30%;
-    }
-    ul{
-        margin: 0;
-        padding: 8% 0;
-    }
-}
-.button{
-    background-color: transparent;
-    border: none;
-}
-ul.hide {
+}   
+    .button{
     display: none;
-}
-.bar1, .bar2, .bar3 {
-  width: 25px;
-  height: 4px;
-  background-color: $white;
-  margin: 4px 0;
-  transition: 0.4s;
-  border:0;
 }
 header{
     .hero-space{
@@ -170,6 +145,38 @@ body{
             }
         }
     }
+    .navisheet{
+        background-color: rgba($color: #24638A, $alpha: 0.7);
+        position: absolute;
+        width: 70%;
+        z-index: 10;
+        top: 75px;
+        left: 30%;
+    }
+    ul{
+        margin: 0;
+        padding: 8% 0;
+    }
+.navi-link{
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+.button{
+    background-color: transparent;
+    border: none;
+    display: inline;
+}
+ul.hide {
+    display: none;
+}
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 4px;
+  background-color: $white;
+  margin: 4px 0;
+  transition: 0.4s;
+  border:0;
+}
     main{
         .title{
             font-size: 1.3rem;

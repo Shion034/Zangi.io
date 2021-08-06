@@ -24,44 +24,15 @@ body nav {
 body nav .navi-link {
   color: #F3F9E3;
   margin: 5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 body nav .nav-item {
   text-align: center;
 }
 
-body nav .navisheet {
-  background-color: rgba(36, 99, 138, 0.7);
-  position: absolute;
-  width: 70%;
-  z-index: 10;
-  top: 75px;
-  left: 30%;
-}
-
-body nav ul {
-  margin: 0;
-  padding: 8% 0;
-}
-
 body .button {
-  background-color: transparent;
-  border: none;
-}
-
-body ul.hide {
   display: none;
-}
-
-body .bar1, body .bar2, body .bar3 {
-  width: 25px;
-  height: 4px;
-  background-color: #F3F9E3;
-  margin: 4px 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border: 0;
 }
 
 body header .hero-space {
@@ -189,6 +160,39 @@ body footer .f-content {
   }
   body header .message .lead {
     font-size: 0.8rem;
+  }
+  body .navisheet {
+    background-color: rgba(36, 99, 138, 0.7);
+    position: absolute;
+    width: 70%;
+    z-index: 10;
+    top: 75px;
+    left: 30%;
+  }
+  body ul {
+    margin: 0;
+    padding: 8% 0;
+  }
+  body .navi-link {
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  body .button {
+    background-color: transparent;
+    border: none;
+    display: inline;
+  }
+  body ul.hide {
+    display: none;
+  }
+  body .bar1, body .bar2, body .bar3 {
+    width: 25px;
+    height: 4px;
+    background-color: #F3F9E3;
+    margin: 4px 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border: 0;
   }
   body main .title {
     font-size: 1.3rem;
