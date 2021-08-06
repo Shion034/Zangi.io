@@ -73,9 +73,11 @@ main{
         width:100%;
         display: flex;
         justify-content: space-between;
-        padding: 2% 3%  2% 3%;
     }
-
+    .card{
+        margin: 0 2%;
+        width: 420px;
+    }
     .news{
         width: 350px;
         grid-column: 2/3;
@@ -151,8 +153,10 @@ body{
                 padding: 3%;
                 h5,p{
                     margin: 0;
-                }
-                
+                }  
+            }
+            .card{
+                width: 100%;
             }
         }
     }

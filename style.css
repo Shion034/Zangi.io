@@ -78,7 +78,11 @@ body main .city-card {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2% 3%  2% 3%;
+}
+
+body main .card {
+  margin: 0 2%;
+  width: 420px;
 }
 
 body main .news {
@@ -161,6 +165,9 @@ body main .news {
   }
   body main .siteseeing .card-body h5, body main .siteseeing .card-body p {
     margin: 0;
+  }
+  body main .siteseeing .card {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
