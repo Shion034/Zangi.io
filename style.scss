@@ -12,31 +12,10 @@ $g:#248A7E;
         font-size: 1rem;
     }
 
-@media screen and (min-width:900px){
-    .message{
-        top:10%;
-        left: 60%;
-        width: 40%;
-        animation: lighttoleft 3s;
-    }
-    @keyframes lighttoleft{
-        from {
-         left: 100%;
-        
-    }
-    to {
-         left: 60%;
-        
-    }
-    }
-    .hero-img{
-        width: 100%;
-    }
 
-}
 body{
 background-color: $white;
-header, footer{
+footer{
     background-color: $b;
 }
 
@@ -62,6 +41,7 @@ header{
         padding:20px;
         box-shadow: 0 0 20px $white;
         border-radius: 4px 0 0 4px;
+        color: $lightb;
     }
     .hero-img{
         width: 100%;
@@ -73,10 +53,7 @@ main{
     margin: 0 auto;
     padding: 2%;
 
-    display: grid;
-    grid-template-columns: 800px 400px;
-    grid-gap: 2%;
-    
+
     .title{
         font-size: 2.5rem;
         color: $g;
@@ -93,6 +70,7 @@ main{
     }
 
     .city-card{
+        width:100%;
         display: flex;
         justify-content: space-between;
         padding: 2% 3%  2% 3%;
@@ -105,4 +83,79 @@ main{
     }
 }
 
+}
+
+@media screen and (min-width:900px){
+
+    .message{
+        top:10%;
+        left: 60%;
+        width: 40%;
+        animation: lighttoleft 3s;
+    }
+    @keyframes lighttoleft{
+        from {
+         left: 100%;
+        
+    }
+    to {
+         left: 60%;
+        
+    }
+    }
+    .hero-img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:899px){
+/*-----font-------*/
+p{
+    font-size: 0.8rem;
+}
+body{
+    header{
+        .message{
+            position: sticky;
+            text-align: center;
+            background-color: rgba($color:#FFEA75, $alpha:0.2 );
+
+            border-radius: 0 0 0 0;
+            .welcome{
+                font-size: 2rem;
+                font-weight: 400;
+            }
+            .lead{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    main{
+        .title{
+            font-size: 1.3rem;
+        }
+        .siteseeing{
+
+            .city-card{
+                 display: inline;
+            }
+            .s-cd-i{
+                width: 30%;
+                margin: 6% 2%;
+            }
+            .s-cd-c{
+                flex-direction: row;
+                margin: 2% 0;
+            }
+            .card-body{
+                padding: 3%;
+                h5,p{
+                    margin: 0;
+                }
+                
+            }
+        }
+    }
+
+}
 }

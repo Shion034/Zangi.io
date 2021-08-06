@@ -7,6 +7,90 @@ p {
   font-size: 1rem;
 }
 
+body {
+  background-color: #F3F9E3;
+}
+
+body footer {
+  background-color: #24638A;
+}
+
+body nav {
+  background-color: #24638A;
+}
+
+body nav .navi-link {
+  color: #F3F9E3;
+  margin: 5px;
+}
+
+body nav .navbar-nav {
+  margin: 10px 0 0 0;
+}
+
+body header .hero-space {
+  width: 100%;
+  position: relative;
+}
+
+body header .message {
+  background-color: rgba(243, 249, 227, 0.7);
+  position: absolute;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 20px #F3F9E3;
+          box-shadow: 0 0 20px #F3F9E3;
+  border-radius: 4px 0 0 4px;
+  color: #2F80B2;
+}
+
+body header .hero-img {
+  width: 100%;
+}
+
+body main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+body main .title {
+  font-size: 2.5rem;
+  color: #248A7E;
+}
+
+body main .histrical-background {
+  background-color: rgba(47, 128, 178, 0.4);
+  padding: 2.5%;
+}
+
+body main .history-link {
+  display: block;
+  color: #2F80B2;
+  text-align: end;
+  padding: 1.5%;
+}
+
+body main .city-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 3%  2% 3%;
+}
+
+body main .news {
+  width: 350px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
 @media screen and (min-width: 900px) {
   .message {
     top: 10%;
@@ -36,90 +120,47 @@ p {
   }
 }
 
-body {
-  background-color: #F3F9E3;
-}
-
-body header, body footer {
-  background-color: #24638A;
-}
-
-body nav {
-  background-color: #24638A;
-}
-
-body nav .navi-link {
-  color: #F3F9E3;
-  margin: 5px;
-}
-
-body nav .navbar-nav {
-  margin: 10px 0 0 0;
-}
-
-body header .hero-space {
-  width: 100%;
-  position: relative;
-}
-
-body header .message {
-  background-color: rgba(243, 249, 227, 0.7);
-  position: absolute;
-  padding: 20px;
-  -webkit-box-shadow: 0 0 20px #F3F9E3;
-          box-shadow: 0 0 20px #F3F9E3;
-  border-radius: 4px 0 0 4px;
-}
-
-body header .hero-img {
-  width: 100%;
-}
-
-body main {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 2%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 800px 400px;
-      grid-template-columns: 800px 400px;
-  grid-gap: 2%;
-}
-
-body main .title {
-  font-size: 2.5rem;
-  color: #248A7E;
-}
-
-body main .histrical-background {
-  background-color: rgba(47, 128, 178, 0.4);
-  padding: 2.5%;
-}
-
-body main .history-link {
-  display: block;
-  color: #2F80B2;
-  text-align: end;
-  padding: 1.5%;
-}
-
-body main .city-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2% 3%  2% 3%;
-}
-
-body main .news {
-  width: 350px;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
+@media screen and (max-width: 899px) {
+  /*-----font-------*/
+  p {
+    font-size: 0.8rem;
+  }
+  body header .message {
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    background-color: rgba(255, 234, 117, 0.2);
+    border-radius: 0 0 0 0;
+  }
+  body header .message .welcome {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  body header .message .lead {
+    font-size: 0.8rem;
+  }
+  body main .title {
+    font-size: 1.3rem;
+  }
+  body main .siteseeing .city-card {
+    display: inline;
+  }
+  body main .siteseeing .s-cd-i {
+    width: 30%;
+    margin: 6% 2%;
+  }
+  body main .siteseeing .s-cd-c {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 2% 0;
+  }
+  body main .siteseeing .card-body {
+    padding: 3%;
+  }
+  body main .siteseeing .card-body h5, body main .siteseeing .card-body p {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
