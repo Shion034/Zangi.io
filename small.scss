@@ -1,0 +1,165 @@
+@media screen and (max-width:600px){
+
+$white:#F3F9E3;
+$lightb:#2F80B2;
+$b:#24638A;
+$y:#FFEA75;
+$g:#248A7E;
+
+/*---------font------------------*/
+    .sitename{
+        display: inline;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+
+
+body{
+background-color: $white;
+footer{
+    background-color: $b;
+}
+
+nav{
+
+    background-color:$b;
+    position: relative;
+    height: 75px;
+
+    .navisheet{
+        background-color: rgba($color: #24638A, $alpha: 0.7);
+        position: absolute;
+        width: 70%;
+        z-index: 10;
+        top: 75px;
+        left: 30%;
+    }
+    .navi-link{
+        font-size: 1.5rem;
+        margin-top: 3%;
+    }
+    
+    .nav-item{
+        text-align: center;
+    }
+}   
+.button{
+    background-color: transparent;
+    border: none;
+    display: inline;
+}
+
+
+header{
+    .hero-space{
+        width: 100%;
+        position: relative;
+    }
+    .message{
+        background-color: rgba($color:$white, $alpha: 0.7);
+        position: absolute;
+        padding:20px;
+        box-shadow: 0 0 20px $white;
+        border-radius: 4px 0 0 4px;
+        color: $lightb;
+    }
+    .hero-img{
+        width: 100%;
+    }
+
+        .message{
+            position: sticky;
+            text-align: center;
+            background-color: rgba($color:#FFEA75, $alpha:0.2 );
+
+            border-radius: 0 0 0 0;
+            .welcome{
+                font-size: 2rem;
+                font-weight: 400;
+            }
+            .lead{
+                font-size: 0.8rem;
+            }
+        } 
+}
+ul{
+        margin: 0;
+        padding: 12% 0;
+    }
+ul.hide {
+    display: none;
+}
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 4px;
+  background-color: $white;
+  margin: 4px 0;
+  transition: 0.4s;
+  border:0;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2%;
+        
+        .title{
+            font-size: 1.3rem;
+            color: $g;
+        }
+
+    .histrical-background{
+        background-color: rgba($color: $lightb, $alpha: 0.4);
+        padding: 2.5%;
+    }
+    .history-link{
+        display: block;
+        color: $lightb;
+        text-align: end;
+        padding: 1.5%;
+    }
+
+    .city-card{
+        width:100%;
+        display: inline;
+        justify-content: space-between;
+    }
+    .s-cd-i{
+                width: 30%;
+                margin: 6% 2%;
+            }
+    .s-cd-c{
+                flex-direction: row;
+                margin: 2% 0;
+            }
+    .card{
+        margin: 0 2%;
+        width:  100%;
+    }
+    .card-body{
+                padding: 3%;
+                h5,p{
+                    margin: 0;
+                }  
+            }
+    .news{
+        width: 350px;
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+}
+footer{
+    padding: 5%;
+    text-align: center;
+    margin-top:5%;
+    .f-content{
+        color:$white;
+        font-size: 1.2rem;
+    }
+}
+}
+
+
+
+}
