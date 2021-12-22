@@ -1,77 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!------------------------------font link---------------------------------------------------->
-<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
-   <!------------------------------------------------------------------------------------------->
-    <link href="charah.css" rel="stylesheet">
-    <title>嶄巍創作アトリエ｜キャラクター</title>
+    <meta charset="utf-8">
+    <meta name="description" content="粟飯原嶄巍の創作世界観、キャラクター、作品を紹介するサイト。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="twitter:site" content="@Zanshino_uno" />
+    <title>嶄巍-創作サイト│Characters</title>
+    <!---- Bootstrap CSS ---->
+    <link rel="stylesheet" href="../bootstrap-css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap-css/bootstrap.min.css">
+    <!---- CSS ----->
+    <link rel="stylesheet" href="../style.css">
+    <!--<link rel="stylesheet" href="small.css">-->
+        <!------------------------------font link---------------------------------------------------
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+        ----------------------------------------------------------------------------------------->
+        <!--<link href="charah.css" rel="stylesheet">-->
 </head>
 <body>
     <header>
-        <div class="headerlogo">
-            <img class="titlelogo" src="../img/logo-1.png" alt="創作Logo">
-            <h1 clas="logoname">UN SUBJEFE</h1>
-        </div>
-        <!--
-        <nav>
-            <button onclick="toggleMenu()">&#9776; Menu</button>
-            <ul>
-                <li><a href="../town page/index.html">HOME</a></li>
-                <li><a href="#">ストーリー</a></li>
-                <li><a href="#">ギャラリー</a></li>
-                <li><a href=".#">作者について</a></li>
-            </ul>
-        </nav>-->
+    
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../index.html" alt="logo">
+                <h1 class="sitename">UN SUBJEFE</h1>
+            </a>
+            <button class="button" type="button" onclick="toggleMenue()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <div class="navisheet">
+                <ul id="togg-nav" class="hide navbar-nav">
+                    <li class="nav-item active">
+                        <a class="navi-link" href="../index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="#">The World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="characters/character.html">Characters<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="#">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="#">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        <h2 class="charainfo">&#10037;キャラクター紹介</h2>
 
-        <h3>Losto Family</h3>
+        <h2 class="familyName">Losto Family</h2>
 
         <div class="characterlink">
         <section class="lostfamilia">
-            <div class="caradiv">
+            <div class="cara caradiv1">
+                <div class="li-info">
+                    <h5>勢力を衰え始めるロストファミリーの最後の切り札⁉ </h5>
+                    <h4 class="name"><a href="Vorlizeo/person.html">Vorlizeo Pedro Losto</a></h4>
+                    <p class="serifu">ーCiao!こんなに天気がいいんだし、僕とお茶でもしない？<br>
+                                君にいい時間の使い方を教えてあげるよー
+                    </p>
+                </div>
                 <img class="charaimg" src="img/vor_s.png" alt="vor">
-                <h4 class="name"><a href="Vorlizeo/person.html">Vorlizeo Pedro Losto</a></h4>
             </div>
-            <div class="caradiv">
+            <div class="cara caradiv2">
+                <div class="li-info">
+                    <h5>亡きコゼンクトロの監守役 </h5>
+                    <h4 class="name"><a href="Aska/aska.html">Aska Mira Losto</a></h4>
+                    <p class="serifu">ー私みたいな下衆な人間に頼るのは間違っているよ。<br>
+                                 過去は通過地点にしか過ぎないー
+                    </p>
+                </div>
                 <img class="charaimg" src="img/aska_s.png" alt="aska">
-                <h4 class="name"><a href="Aska/aska.html">Aska Mira Losto</a></h4>
             </div>
-            <div class="caradiv">
+            <div class="cara caradiv3">
+                <div class="li-info">
+                    <h5>巷で噂の切り裂きリッツァ？</h5>
+                    <h4 class="name"><a href="Riza/riza.html">Riza Berotrini Losto</a></h4>
+                    <p class="serifu">ー勝手に死ぬのはかまわないけど、無駄足にはさせないでよね。<br>
+                        僕はおいしいものは最後に残す派なんだ。ー
+                    </p>
+                </div>
+                
                 <img class="charaimg" src="img/liza_s.png" alt="Riza">
-                <h4 class="name"><a href="Riza/riza.html">Riza Berotrini Losto</a></h4>
             </div>
-            <div class="caradiv">
+            <div class="cara caradiv4">
+                <div class="li-info">
+                    <h5>ロストファミリーの大黒柱</h5>
+                    <h4 class="name"><a href="Hank/hank.html">Hank Z Losto</a></h4>
+                    <p class="serifu">ー悪いが、次の仕事が立て込んでいるんだ。<br>
+                    要件があるならメールで内容と日時を指定してくれ。ー
+                    </p>
+                </div>
                 <img class="charaimg" src="img/hank_s.png" alt="hank">
-                <h4 class="name"><a href="Hank/hank.html">Hank Z Losto</a></h4>
             </div>
-            <div class="caradiv">
+            <div class="cara caradiv5">
+                <div class="li-info">
+                    <h5>コゼンクトロ地方のことならなんでもお任せ！</h5>
+                    <h4 class="name"><a href="nica,nico/nicanico.html">Nica Cralis Losto/Nico Sandre Losto</a></h4>
+                    <p class="serifu">ー僕たちにかかれば、コゼンクトロ地方の地下通路、七不思議、50憶の財宝事件、<br>
+                        警察でも知らない極秘事件はすべて解決済みだよー
+                    </p>
+                </div>
+                
                 <img class="charaimg" src="img/niko,nika_s.png" alt="niconica">
-                <h4 class="name"><a href="nica,nico/nicanico.html">Nica Cralis Losto/Nico Sandre Losto</a></h4>
             </div>
 
         </section>
 
-        <h3>Heinz Family</h3>
-        <section class="heinzfamilia">
-            <div class="caradiv">
+        <h2 class="familyName">Heinz Family</h2>
+
+            <div class="cara caradiv6">
+                <div class="li-info">
+                    <h5>ヘインツ家の呪われた仁君</h5>
+                    <h4 class="name"><a href="Ligaro/ligaro.html">Ligaro Felix Heinz</a></h4>
+                    <p class="serifu">ーヴォルリッツェオがそれでいいというなら、俺は反対はしない。<br>
+                        だが、死ぬときは俺も一緒だ。ー
+                    </p>
+                </div>
+                
                 <img class="charaimg" src="img/ligaro_s.png" alt="ligaro">
-                <h4 class="name"><a href="Ligaro/ligaro.html">Ligaro Felix Heinz</a></h4>
             </div>
-        </section>
+
         </div>
     </main>
+
     <footer>
-        <p>&copy;2021 | 粟飯原　嶄巍</p>
-        <div class="social"><a href="https://twitter.com/Zanshino_uno" target="_blank">
-        <img src="../img/twitter.png" alt="twitter"></a></div>
+        <div class="f-content">@創作世界観|粟飯原 嶄巍</div>
+        <div class="f-info">
+            Last update:<span id="currentdate"></span>
+        </div>
+        <a class="sns-link" href="https://twitter.com/Zanshino_uno" target="_blank">
+            <img src="images/twitter.png" alt="twitter">
+        </a>
     </footer>
+    
+    
+    
+    
+    <script src="bootstrap-js/bootstrap.min.js"></script>
+    <script src="../js/toggle.js"></script>
+    <script src="../js/currentupdates.js"></script>
 </body>
 </html>
