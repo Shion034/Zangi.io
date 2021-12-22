@@ -113,6 +113,11 @@ body footer .f-content {
   font-size: 1.2rem;
 }
 
+body footer .f-info {
+  color: #F3F9E3;
+  font-weight: lighter;
+}
+
 @media screen and (min-width: 900px) {
   .message {
     top: 10%;

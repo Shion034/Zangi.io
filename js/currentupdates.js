@@ -22,10 +22,10 @@ let monthes=[
     "December",
 ];
 
-let d=new date();
+let d=new Date();
 let dayName =daynames[d.getDay()];
 let monthName =monthes[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = d.getDate + " "+ monthName +" "+ year;
+let fulldate = d.getDate() + " "+ monthName +" "+ year;
 
 document.getElementById("currentdate").textContent=fulldate;

@@ -144,7 +144,7 @@
     text-align: center;
     margin-top: 5%;
   }
-  body footer .f-content {
+  body footer .f-content .f-info {
     color: #F3F9E3;
     font-size: 1.2rem;
   }
