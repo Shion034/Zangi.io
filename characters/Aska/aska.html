@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Vorlizeo/person.css" rel="stylesheet">
 
-    <!------------------------------font link---------------------------------------------------->
-<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
-   <!------------------------------------------------------------------------------------------->
-    <title>キャラクターシート｜アスカ</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="粟飯原嶄巍の創作世界観、キャラクター、作品を紹介するサイト。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="twitter:site" content="@Zanshino_uno" />
+    <title>嶄巍-創作サイト│Aska Losto</title>
+    <!---- Bootstrap CSS ---->
+    <link rel="stylesheet" href="../../bootstrap-css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../bootstrap-css/bootstrap.min.css">
+    <!---- CSS ----->
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../characters/charactor.css">
+    <!------------------------------font link--------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=M+PLUS+Rounded+1c:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!--- <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+        ----------------------------------------------------------------------------------------->
+
 </head>
 <body>
     <header>
-        <div class="headerlogo">
-            <img class="titlelogo" src="../img/logo-1.png" alt="創作Logo">
-            <h1 clas="logoname">UN SUBJEFE</h1>
-        </div>
-        <!--
-        <nav>
-            <button onclick="toggleMenu()">&#9776; Menu</button>
-            <ul>
-                <li><a href="../town page/index.html">HOME</a></li>
-                <li><a href="#">ストーリー</a></li>
-                <li><a href="#">ギャラリー</a></li>
-                <li><a href=".#">作者について</a></li>
-            </ul>
-        </nav>-->
+    
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../../index.html" alt="logo">
+                <h1 class="sitename">UN SUBJEFE</h1>
+            </a>
+            <button class="button" type="button" onclick="toggleMenue()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <div class="navisheet">
+                <ul id="togg-nav" class="hide navbar-nav">
+                    <li class="nav-item active">
+                        <a class="navi-link" href="../../index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="../../world/world.html">The World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="../../characters/character.html">Characters<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="../../gallary/gallary.html">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navi-link" href="../../aboutme/me.html">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="nameicon">
@@ -84,10 +118,20 @@
     </main>
 
     <footer>
-        <div>&copy;2021 | 粟飯原　嶄巍</div>
-        <div class="social"><a href="https://twitter.com/Zanshino_uno" target="_blank">
-        <img src="../img/twitter.png" alt="twitter"></a></div>
+        <div class="f-content">@創作世界観|粟飯原 嶄巍</div>
+        <div class="f-info">
+            Last update:<span id="currentdate"></span>
+        </div>
+        <a class="sns-link" href="https://twitter.com/Zanshino_uno" target="_blank">
+            <img src="../../images/twitter.png" alt="twitter">
+        </a>
     </footer>
     
-</body>
+    
+    
+    
+    <script src="../../bootstrap-js/bootstrap.min.js"></script>
+    <script src="../../js/toggle.js"></script>
+    <script src="../../js/currentupdates.js"></script>
+    </body>
 </html>
