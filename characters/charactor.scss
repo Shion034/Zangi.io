@@ -1,0 +1,44 @@
+@media screen and (max-width:600px){
+
+    /***********font***************/
+
+h1{
+    font-size: 2.3rem;
+}
+h1,h2,h4{
+    font-family: 'Almendra', serif;
+}
+h2,.familyName{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+a{
+    color: rgb(38, 59, 99);
+}
+p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+/******キャラ個別枠内*****************/
+.cara{
+    background-color: rgba(202, 189, 182, 0.8);
+    padding:4%;
+    margin-bottom: 3%;
+}
+img{
+    padding: 0 5% 0 5%;
+}
+
+
+
+
+
+
+}
