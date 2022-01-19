@@ -2,11 +2,14 @@
 .mehead{
     display: block;
     font-size: 1rem;
-    padding:2%;
+    padding:  2%  2%  2% 4%;
     border-style: 1px solid;
     border-style: outset;
     background-color: #fff;
 }
 strong {
     color:rgb(45, 133, 136)
+}
+p{
+    padding: 0% 4% 0% 4%;
 }
