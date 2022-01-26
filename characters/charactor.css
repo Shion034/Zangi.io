@@ -13,9 +13,12 @@
     font-size: 2.5rem;
   }
   h4 {
+    font-size: 2rem;
+    color: #24638a;
+  }
+  .hyoudai {
     font-size: 1.3rem;
-    color: #24638A;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #24638a;
   }
   h5 {
     font-size: 0.8rem;
@@ -24,13 +27,20 @@
   a {
     color: #263b63;
   }
-  p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
   .subname {
     display: block;
     text-align: center;
     font-size: 1rem;
+  }
+  p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  .data {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: rgba(36, 99, 138, 0.5);
+    padding: 5%;
+    margin: 3%;
+    border-radius: 12px;
   }
   /******キャラ個別枠内*****************/
   .cara {
