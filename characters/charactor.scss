@@ -14,7 +14,9 @@ h2,.familyName{
     font-size: 2.5rem;
 }
 h4{
-    font-size: 2rem;
+    font-size: 1.3rem;
+    color: #24638A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 h5{
     font-size: 0.8rem;
@@ -26,6 +28,11 @@ a{
 p{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
+.subname{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
 /******キャラ個別枠内*****************/
 .cara{
     background-color: rgba(202, 189, 182, 0.8);
@@ -34,6 +41,9 @@ p{
 }
 img{
     padding: 0 5% 0 5%;
+}
+#charaicon{
+     padding: 0 10% 0 10%
 }
 
 
