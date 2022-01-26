@@ -19,3 +19,6 @@ p{
     flex-direction: row;
     justify-content: center;
 }
+.profile{
+    padding: 3%;
+}
